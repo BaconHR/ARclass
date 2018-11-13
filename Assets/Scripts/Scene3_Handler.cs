@@ -7,7 +7,7 @@ public class Scene3_Handler : MonoBehaviour {
 
     public GameObject canvas =null ;
 
-    private UI_Handler messageBox = null;
+    private UI_Handler3 messageBox = null;
 
     // Use this for initialization
     void Start ()
@@ -29,7 +29,7 @@ public class Scene3_Handler : MonoBehaviour {
                 {
                     obj.transform.parent = canvas.transform;                    // B.tf.parent = A.tf  //B在A裡面
                     obj.transform.localPosition = Vector3.zero;
-                    messageBox = obj.GetComponent<UI_Handler>();
+                    messageBox = obj.GetComponent<UI_Handler3>();
                 }
             }
         }

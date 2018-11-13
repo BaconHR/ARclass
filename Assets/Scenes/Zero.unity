@@ -570,7 +570,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 36d3c2ef5d852c34185c47feb650b43d, type: 2}
+  - {fileID: 2100000, guid: ac124f437cf65714e933db6a9fe88ec9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -710,7 +710,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 8e5f30a8dae0f5a46a2a5872a872ddc0, type: 2}
+  - {fileID: 2100000, guid: 87d80cf732307c842a59716ae2d3f824, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1083,7 +1083,7 @@ Prefab:
     - target: {fileID: 2300002, guid: 188af3b2fd5185d45939bbbd2f42db06, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 8e5f30a8dae0f5a46a2a5872a872ddc0, type: 2}
+      objectReference: {fileID: 2100000, guid: 87d80cf732307c842a59716ae2d3f824, type: 2}
     - target: {fileID: 2300006, guid: 188af3b2fd5185d45939bbbd2f42db06, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
