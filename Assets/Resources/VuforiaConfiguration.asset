@@ -14,10 +14,10 @@ MonoBehaviour:
   vuforia:
     vuforiaLicenseKey: AUSVC5j/////AAABmRyrPH27fUtHva5jbl8d+UZmDeIuFSenIasEXObPYms4rG8+7aRNa+EoMgC7MB2Y8r+1w+1/tKs6jn17tXJ8PqDZVfp7nE9K/u2k/dUiK3BJ+8zIhgjKOWL1XCYkKuvLCE7QL7Zhwl6vqAmnSm27nNPWWpe9nVWS9LnMGQ8rN2S0I7ViUe8iV3/ch0BBhZIrSCJDX8A0nCkeETmMX6wlUt0USOCSuIL6p9R5EIz5qDj6aS96d2aPKTd8Sw0DKEFF7e2vTGhBrwWD9tzwEcmTuwe9Yd5A7I4jtn5WAFO2QRSLXlKHv3LZC1x84Sj0KlrseCWqtf9i0ltkb3oQeHLcbKB0+Vf0Hd9ZVNQsOWQlokEt
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
     mirrorVideoBackground: 0
   digitalEyewear:
@@ -64,7 +64,7 @@ MonoBehaviour:
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
   webcam:
-    deviceNameSetInEditor: DroidCam Source 3
-    flipHorizontally: 0
+    deviceNameSetInEditor: USB2.0 PC CAMERA
+    flipHorizontally: 1
     turnOffWebCam: 0
     renderTextureLayer: 30
